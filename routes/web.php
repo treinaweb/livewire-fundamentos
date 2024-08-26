@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\SiteController;
+use App\Livewire\OlaMundo;
+use App\Livewire\Saudacao;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [SiteController::class, 'home']);
+
+Route::get('/saudacao', Saudacao::class);
+Route::get('/ola-mundo/{mensagem}', OlaMundo::class);
