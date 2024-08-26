@@ -9,5 +9,8 @@
     <body>
         <livewire:ola-mundo mensagem="Olá Mundo, Treinaweb" />
         @livewire('ola-mundo', ['mensagem' => 'Olá mundo 2'])
+
+        <livewire:saudacao />
+        @livewire('saudacao')
     </body>
 </html>
