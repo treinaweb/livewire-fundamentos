@@ -7,6 +7,11 @@
         <title>{{ $title ?? 'Page Title' }}</title>
     </head>
     <body>
+        <ul>
+            <li>Página 1</li>
+            <li>Página 2</li>
+        </ul>
+
         {{ $slot }}
     </body>
 </html>

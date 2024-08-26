@@ -1,4 +1,8 @@
+<x-slot name="title">
+    Meu título
+</x-slot>
+
 <div>
     <h1>{{ $mensagem }}</h1>
-    linha abaixo da mensagem
+    <p>linha abaixo da mensagem</p>
 </div>
