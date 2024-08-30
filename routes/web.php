@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\SiteController;
+use App\Livewire\Client\Index;
 use App\Livewire\Contador;
 use App\Livewire\OlaMundo;
 use App\Livewire\Saudacao;
@@ -12,3 +13,5 @@ Route::get('/saudacao', Saudacao::class);
 Route::get('/ola-mundo/{mensagem}', OlaMundo::class);
 
 Route::get('/contador', Contador::class);
+
+Route::get('/clients', Index::class);
