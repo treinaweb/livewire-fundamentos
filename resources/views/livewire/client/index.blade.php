@@ -23,7 +23,12 @@
                     <td>{{ $client->email }}</td>
                     <td>
                         <button type="button" class="btn btn-primary">Editar</button>
-                        <button type="button" class="btn btn-danger">Excluir</button>
+                        <button 
+                            type="button" 
+                            wire:click="delete({{$client->id}})" 
+                            class="btn btn-danger"
+                            wire:confirm="Tem certeza que deseja excluir esse item?"
+                        >Excluir</button>
                     </td>
                 </tr>
             @endforeach

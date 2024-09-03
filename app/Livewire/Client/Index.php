@@ -9,6 +9,13 @@ class Index extends Component
 {
     public $search;
 
+    public function delete($clientId)
+    {
+        $client = Client::where('id', $clientId)->first();
+
+        $client->delete();
+    }
+
     public function render()
     {
         $clients = Client::where('name', 'like', "%{$this->search}%")->get();
