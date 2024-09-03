@@ -1,5 +1,11 @@
 <div>
     <h1>Lista de Clientes</h1>
+
+    <br>
+    <input type="text" wire:model.live="search" class="form-control" placeholder="Digite sua busca">
+    <br>
+    <br>
+
     <table class="table">
         <thead>
             <tr>
