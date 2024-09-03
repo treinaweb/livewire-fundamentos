@@ -17,5 +17,5 @@ Route::get('/ola-mundo/{mensagem}', OlaMundo::class);
 Route::get('/contador', Contador::class);
 
 Route::get('/clients', Index::class)->name('clients.index');
-Route::get('/clients/create', Create::class);
-Route::get('/clients/{client}/edit', Edit::class);
+Route::get('/clients/create', Create::class)->name('clients.create');
+Route::get('/clients/{client}/edit', Edit::class)->name('clients.edit');

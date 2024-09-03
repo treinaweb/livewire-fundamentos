@@ -22,7 +22,7 @@
                     <td>{{ $client->name }}</td>
                     <td>{{ $client->email }}</td>
                     <td>
-                        <button type="button" class="btn btn-primary">Editar</button>
+                        <a href="{{ route('clients.edit', $client) }}" class="btn btn-primary">Editar</a>
                         <button 
                             type="button" 
                             wire:click="delete({{$client->id}})" 
@@ -32,7 +32,8 @@
                     </td>
                 </tr>
             @endforeach
-            
         </tbody>
     </table>
+
+    <a href="{{ route('clients.create') }}" class="btn btn-primary">Novo Cliente</a>
 </div>
