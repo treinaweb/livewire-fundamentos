@@ -126,6 +126,10 @@
                 background-color: #c82333;
                 border-color: #bd2130;
             }
+
+            .error {
+                color: #c82333;
+            }
         </style>
     </head>
     <body>
