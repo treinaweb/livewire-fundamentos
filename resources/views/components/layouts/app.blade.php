@@ -112,6 +112,11 @@
                 transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
             }
 
+            .btn:disabled {
+                background-color: #495057;
+                cursor: progress;
+            }
+
             .btn:hover {
                 background-color: #0056b3;
                 border-color: #0056b3;

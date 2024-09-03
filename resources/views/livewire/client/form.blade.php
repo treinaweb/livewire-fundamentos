@@ -12,4 +12,15 @@
         <div class="error">{{ $message }}</div>
     @enderror
 </div>
-<button type="submit" class="btn btn-primary">Enviar</button>
+
+<button 
+    type="submit" 
+    class="btn btn-primary"
+    wire:loading.attr="disabled"
+>
+    Enviar
+</button>
+
+<div wire:loading>
+    O registro está sendo salvo
+</div>
