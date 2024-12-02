@@ -1,6 +1,6 @@
 ## Projeto desenvolvido na TreinaWeb Cursos
 
-Desenvolvido no curso de Laravel - Livewire Fundamentos
+Desenvolvido no curso de Laravel - Criando aplicações dinâmicas com Livewire
 
 ### Instalando o projeto
 
