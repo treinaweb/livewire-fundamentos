@@ -7,7 +7,7 @@ Desenvolvido no curso de Laravel - Criando aplicações dinâmicas com Livewire
 #### Clonar o repositório
 
 ```
-git clone https://github.com/treinaweb/laravel-filament-php.git
+git clone https://github.com/treinaweb/livewire-fundamentos.git
 ```
 
 #### Instalar as depencências
